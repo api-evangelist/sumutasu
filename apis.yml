@@ -1,7 +1,16 @@
 aid: sumutasu
 name: Sumutasu
-description: Sumutasu is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Sumutasu Inc. (株式会社すむたす) is a Japanese property-technology (proptech) company
+  operating under the mission "a society where people can make ideal housing
+  choices" (住まいの理想的な選択ができる社会に). It runs an instant real-estate buying and
+  selling service for used condominiums in Japan, using data and technology to
+  give homeowners a fast, transparent alternative to the traditional brokerage
+  process, alongside an agent-assisted sales offering. The company is backed by
+  500 Global. Its public presence is a corporate marketing website (About,
+  Services, Members, News, and Careers) built on the Studio.Design no-code
+  platform; no public developer platform, API, SDK, or documentation surface has
+  been found.
 url: https://raw.githubusercontent.com/api-evangelist/sumutasu/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +18,29 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Real Estate
+- PropTech
+- Japan
+- iBuyer
+- Housing
+- Marketplace
+image: https://storage.googleapis.com/production-os-assets/assets/778fe21a-a784-4231-a12e-be19751e0491
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,14 @@ maintainers:
 common:
 - type: Website
   url: https://sumutasu.co.jp
+- type: About
+  url: https://sumutasu.co.jp/about
+- type: Blog
+  url: https://sumutasu.co.jp/news
+- type: DomainSecurity
+  url: security/sumutasu-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1

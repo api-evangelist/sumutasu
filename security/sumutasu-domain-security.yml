@@ -1,0 +1,16 @@
+generated: '2026-07-21'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: sumutasu.co.jp
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Aug 21 01:51:17 2026 GMT
+  hsts: false
+domains:
+- domain: sumutasu.co.jp
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: none
