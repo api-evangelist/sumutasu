@@ -45,7 +45,7 @@ created: '2026-07-17'
 modified: '2026-07-21'
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - PropTech
 - Japan
 - iBuyer
@@ -59,6 +59,7 @@ tags_raw:
 - iBuyer
 - Housing
 - Marketplace
+- Real-Estate
 image: https://storage.googleapis.com/production-os-assets/assets/778fe21a-a784-4231-a12e-be19751e0491
 apis: []
 maintainers:
